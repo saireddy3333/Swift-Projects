@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "33862F7E-5BBC-43FF-B225-3364372B0678"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "242E89D4-A0BC-495A-BFC8-8542DC84AF82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATM Machine/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Login(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATM Machine/EditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "EditViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76 - a661a1c9bfbeca9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATM_Machine.EditViewController.TotalAmountField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "ATM Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kongaris6589/Documents/ATM%20Machine/ATM%20Machine/EditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76 - d8854f512a70be8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATM_Machine.EditViewController.TotalAmountField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "ATM Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kongaris6589/Documents/ATM%20Machine/ATM%20Machine/EditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76 - a6ca9203542719d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATM_Machine.EditViewController.TotalAmountField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "ATM Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kongaris6589/Documents/ATM%20Machine/ATM%20Machine/EditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76 - 5f731dcc7f0984ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATM_Machine.EditViewController.TotalAmountField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ATM Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kongaris6589/Documents/ATM%20Machine/ATM%20Machine/EditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76 - ee196593c95823fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATM_Machine.EditViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ATM_Machine.EditViewController"
+                  moduleName = "ATM Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kongaris6589/Documents/ATM%20Machine/ATM%20Machine/EditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "6013E283-7111-4A22-A7BF-439DEE1C0B76 - d54764bae673c7e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATM_Machine.EditViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ATM_Machine.EditViewController&gt;"
+                  moduleName = "ATM Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kongaris6589/Documents/ATM%20Machine/ATM%20Machine/EditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "129">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85C86A84-E953-4AB7-B618-BA68FFB4166A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATM Machine/EditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6835BEA-6080-4AC0-B124-6FE6B5B6F8ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATM Machine/FinalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "FinalViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C857C8AE-BE5F-4B9F-9052-BFEED49EB1C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATM Machine/MainPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "585A3899-3949-4EC0-99EE-D3B2D7ADBAEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATM Machine/MainPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

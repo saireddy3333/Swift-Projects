@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F004608286B9DE500E76C10 /* atm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F004607286B9DE500E76C10 /* atm.jpg */; };
+		6F2444E3286B508A00D173DC /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2444E2286B508A00D173DC /* MainPageViewController.swift */; };
+		6F6BC838286A294F00048D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BC837286A294F00048D2D /* AppDelegate.swift */; };
+		6F6BC83A286A294F00048D2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BC839286A294F00048D2D /* SceneDelegate.swift */; };
+		6F6BC83C286A294F00048D2D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BC83B286A294F00048D2D /* HomeViewController.swift */; };
+		6F6BC83F286A294F00048D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6BC83D286A294F00048D2D /* Main.storyboard */; };
+		6F6BC841286A295A00048D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6BC840286A295A00048D2D /* Assets.xcassets */; };
+		6F6BC844286A295A00048D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6BC842286A295A00048D2D /* LaunchScreen.storyboard */; };
+		6F6BC84F286A295B00048D2D /* ATM_MachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BC84E286A295B00048D2D /* ATM_MachineTests.swift */; };
+		6F6BC859286A295B00048D2D /* ATM_MachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BC858286A295B00048D2D /* ATM_MachineUITests.swift */; };
+		6F6BC85B286A295B00048D2D /* ATM_MachineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BC85A286A295B00048D2D /* ATM_MachineUITestsLaunchTests.swift */; };
+		6F9676AE286F8B920094CAAC /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9676AD286F8B920094CAAC /* TransactionViewController.swift */; };
+		6F9676B0286F8D300094CAAC /* TransactionDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9676AF286F8D300094CAAC /* TransactionDBModel.swift */; };
+		6F9676B2286F8F6A0094CAAC /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9676B1286F8F6A0094CAAC /* Database.swift */; };
+		6F9676B4286FC6020094CAAC /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9676B3286FC6010094CAAC /* EditViewController.swift */; };
+		6F9676B6286FE8190094CAAC /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9676B5286FE8190094CAAC /* FinalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F6BC84B286A295B00048D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6BC82C286A294F00048D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6BC833286A294F00048D2D;
+			remoteInfo = "ATM Machine";
+		};
+		6F6BC855286A295B00048D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6BC82C286A294F00048D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6BC833286A294F00048D2D;
+			remoteInfo = "ATM Machine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F004607286B9DE500E76C10 /* atm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atm.jpg; sourceTree = SOURCE_ROOT; };
+		6F2444E2286B508A00D173DC /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		6F6BC834286A294F00048D2D /* ATM Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6BC837286A294F00048D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F6BC839286A294F00048D2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F6BC83B286A294F00048D2D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F6BC83E286A294F00048D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F6BC840286A295A00048D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F6BC843286A295A00048D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F6BC845286A295A00048D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6BC84A286A295B00048D2D /* ATM MachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATM MachineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6BC84E286A295B00048D2D /* ATM_MachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM_MachineTests.swift; sourceTree = "<group>"; };
+		6F6BC854286A295B00048D2D /* ATM MachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATM MachineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6BC858286A295B00048D2D /* ATM_MachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM_MachineUITests.swift; sourceTree = "<group>"; };
+		6F6BC85A286A295B00048D2D /* ATM_MachineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM_MachineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F9676AD286F8B920094CAAC /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		6F9676AF286F8D300094CAAC /* TransactionDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDBModel.swift; sourceTree = "<group>"; };
+		6F9676B1286F8F6A0094CAAC /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		6F9676B3286FC6010094CAAC /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		6F9676B5286FE8190094CAAC /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F6BC831286A294F00048D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6BC847286A295B00048D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6BC851286A295B00048D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6BC82B286A294F00048D2D = {
+			isa = PBXGroup;
+			children = (
+				6F6BC836286A294F00048D2D /* ATM Machine */,
+				6F6BC84D286A295B00048D2D /* ATM MachineTests */,
+				6F6BC857286A295B00048D2D /* ATM MachineUITests */,
+				6F6BC835286A294F00048D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F6BC835286A294F00048D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F6BC834286A294F00048D2D /* ATM Machine.app */,
+				6F6BC84A286A295B00048D2D /* ATM MachineTests.xctest */,
+				6F6BC854286A295B00048D2D /* ATM MachineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F6BC836286A294F00048D2D /* ATM Machine */ = {
+			isa = PBXGroup;
+			children = (
+				6F004607286B9DE500E76C10 /* atm.jpg */,
+				6F6BC837286A294F00048D2D /* AppDelegate.swift */,
+				6F6BC839286A294F00048D2D /* SceneDelegate.swift */,
+				6F6BC83B286A294F00048D2D /* HomeViewController.swift */,
+				6F6BC83D286A294F00048D2D /* Main.storyboard */,
+				6F2444E2286B508A00D173DC /* MainPageViewController.swift */,
+				6F9676AD286F8B920094CAAC /* TransactionViewController.swift */,
+				6F9676B3286FC6010094CAAC /* EditViewController.swift */,
+				6F9676B5286FE8190094CAAC /* FinalViewController.swift */,
+				6F6BC840286A295A00048D2D /* Assets.xcassets */,
+				6F6BC842286A295A00048D2D /* LaunchScreen.storyboard */,
+				6F6BC845286A295A00048D2D /* Info.plist */,
+				6F9676AF286F8D300094CAAC /* TransactionDBModel.swift */,
+				6F9676B1286F8F6A0094CAAC /* Database.swift */,
+			);
+			path = "ATM Machine";
+			sourceTree = "<group>";
+		};
+		6F6BC84D286A295B00048D2D /* ATM MachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6BC84E286A295B00048D2D /* ATM_MachineTests.swift */,
+			);
+			path = "ATM MachineTests";
+			sourceTree = "<group>";
+		};
+		6F6BC857286A295B00048D2D /* ATM MachineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6BC858286A295B00048D2D /* ATM_MachineUITests.swift */,
+				6F6BC85A286A295B00048D2D /* ATM_MachineUITestsLaunchTests.swift */,
+			);
+			path = "ATM MachineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F6BC833286A294F00048D2D /* ATM Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6BC85E286A295B00048D2D /* Build configuration list for PBXNativeTarget "ATM Machine" */;
+			buildPhases = (
+				6F6BC830286A294F00048D2D /* Sources */,
+				6F6BC831286A294F00048D2D /* Frameworks */,
+				6F6BC832286A294F00048D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATM Machine";
+			productName = "ATM Machine";
+			productReference = 6F6BC834286A294F00048D2D /* ATM Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F6BC849286A295B00048D2D /* ATM MachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6BC861286A295B00048D2D /* Build configuration list for PBXNativeTarget "ATM MachineTests" */;
+			buildPhases = (
+				6F6BC846286A295B00048D2D /* Sources */,
+				6F6BC847286A295B00048D2D /* Frameworks */,
+				6F6BC848286A295B00048D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6BC84C286A295B00048D2D /* PBXTargetDependency */,
+			);
+			name = "ATM MachineTests";
+			productName = "ATM MachineTests";
+			productReference = 6F6BC84A286A295B00048D2D /* ATM MachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F6BC853286A295B00048D2D /* ATM MachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6BC864286A295B00048D2D /* Build configuration list for PBXNativeTarget "ATM MachineUITests" */;
+			buildPhases = (
+				6F6BC850286A295B00048D2D /* Sources */,
+				6F6BC851286A295B00048D2D /* Frameworks */,
+				6F6BC852286A295B00048D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6BC856286A295B00048D2D /* PBXTargetDependency */,
+			);
+			name = "ATM MachineUITests";
+			productName = "ATM MachineUITests";
+			productReference = 6F6BC854286A295B00048D2D /* ATM MachineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F6BC82C286A294F00048D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6F6BC833286A294F00048D2D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6F6BC849286A295B00048D2D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6F6BC833286A294F00048D2D;
+					};
+					6F6BC853286A295B00048D2D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6F6BC833286A294F00048D2D;
+					};
+				};
+			};
+			buildConfigurationList = 6F6BC82F286A294F00048D2D /* Build configuration list for PBXProject "ATM Machine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F6BC82B286A294F00048D2D;
+			productRefGroup = 6F6BC835286A294F00048D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F6BC833286A294F00048D2D /* ATM Machine */,
+				6F6BC849286A295B00048D2D /* ATM MachineTests */,
+				6F6BC853286A295B00048D2D /* ATM MachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F6BC832286A294F00048D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F004608286B9DE500E76C10 /* atm.jpg in Resources */,
+				6F6BC844286A295A00048D2D /* LaunchScreen.storyboard in Resources */,
+				6F6BC841286A295A00048D2D /* Assets.xcassets in Resources */,
+				6F6BC83F286A294F00048D2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6BC848286A295B00048D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6BC852286A295B00048D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F6BC830286A294F00048D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9676B4286FC6020094CAAC /* EditViewController.swift in Sources */,
+				6F9676B6286FE8190094CAAC /* FinalViewController.swift in Sources */,
+				6F2444E3286B508A00D173DC /* MainPageViewController.swift in Sources */,
+				6F9676AE286F8B920094CAAC /* TransactionViewController.swift in Sources */,
+				6F6BC83C286A294F00048D2D /* HomeViewController.swift in Sources */,
+				6F6BC838286A294F00048D2D /* AppDelegate.swift in Sources */,
+				6F6BC83A286A294F00048D2D /* SceneDelegate.swift in Sources */,
+				6F9676B0286F8D300094CAAC /* TransactionDBModel.swift in Sources */,
+				6F9676B2286F8F6A0094CAAC /* Database.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6BC846286A295B00048D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6BC84F286A295B00048D2D /* ATM_MachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6BC850286A295B00048D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6BC859286A295B00048D2D /* ATM_MachineUITests.swift in Sources */,
+				6F6BC85B286A295B00048D2D /* ATM_MachineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F6BC84C286A295B00048D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6BC833286A294F00048D2D /* ATM Machine */;
+			targetProxy = 6F6BC84B286A295B00048D2D /* PBXContainerItemProxy */;
+		};
+		6F6BC856286A295B00048D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6BC833286A294F00048D2D /* ATM Machine */;
+			targetProxy = 6F6BC855286A295B00048D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F6BC83D286A294F00048D2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6BC83E286A294F00048D2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F6BC842286A295A00048D2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6BC843286A295A00048D2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F6BC85C286A295B00048D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F6BC85D286A295B00048D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F6BC85F286A295B00048D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ATM Machine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.ATM-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F6BC860286A295B00048D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ATM Machine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.ATM-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F6BC862286A295B00048D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.ATM-MachineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATM Machine.app/ATM Machine";
+			};
+			name = Debug;
+		};
+		6F6BC863286A295B00048D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.ATM-MachineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATM Machine.app/ATM Machine";
+			};
+			name = Release;
+		};
+		6F6BC865286A295B00048D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.ATM-MachineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ATM Machine";
+			};
+			name = Debug;
+		};
+		6F6BC866286A295B00048D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.ATM-MachineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ATM Machine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F6BC82F286A294F00048D2D /* Build configuration list for PBXProject "ATM Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6BC85C286A295B00048D2D /* Debug */,
+				6F6BC85D286A295B00048D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6BC85E286A295B00048D2D /* Build configuration list for PBXNativeTarget "ATM Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6BC85F286A295B00048D2D /* Debug */,
+				6F6BC860286A295B00048D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6BC861286A295B00048D2D /* Build configuration list for PBXNativeTarget "ATM MachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6BC862286A295B00048D2D /* Debug */,
+				6F6BC863286A295B00048D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6BC864286A295B00048D2D /* Build configuration list for PBXNativeTarget "ATM MachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6BC865286A295B00048D2D /* Debug */,
+				6F6BC866286A295B00048D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F6BC82C286A294F00048D2D /* Project object */;
+}
